@@ -6,7 +6,7 @@
 /*   By: roblabla </var/spool/mail/roblabla>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/06/14 16:10:45 by roblabla          #+#    #+#             */
-/*   Updated: 2015/06/14 19:30:42 by roblabla         ###   ########.fr       */
+/*   Updated: 2015/06/19 20:01:24 by roblabla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,11 +20,11 @@ int		main()
 	FragTrap	ft2(ft);
 	FragTrap	ft3 = ft2;
 
-	ScavTrap	st("#YOLO");
+	ScavTrap	st("#SWAG");
 	ScavTrap	st2(st);
 	ScavTrap	st3 = st2;
 
-	NinjaTrap	nt("#YOLO");
+	NinjaTrap	nt("#NINJ");
 	NinjaTrap	nt2(nt);
 	NinjaTrap	nt3 = nt2;
 
