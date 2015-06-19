@@ -6,7 +6,7 @@
 /*   By: roblabla </var/spool/mail/roblabla>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/06/14 19:19:35 by roblabla          #+#    #+#             */
-/*   Updated: 2015/06/14 19:28:54 by roblabla         ###   ########.fr       */
+/*   Updated: 2015/06/19 19:58:05 by roblabla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,12 +47,14 @@ void		NinjaTrap::ninjaShoebox(NinjaTrap const &trap)
 
 void		NinjaTrap::ninjaShoebox(FragTrap const &trap)
 {
+	(void)trap;
 	std::cout	<< "NNJ4-TP " << name << " says hello to FragTrap friend"
 				<< std::endl;
 }
 
 void		NinjaTrap::ninjaShoebox(ScavTrap const &trap)
 {
+	(void)trap;
 	std::cout	<< "NNJ4-TP " << name << " doesn't really like ScavTrap."
 				<< std::endl;
 }
