@@ -6,7 +6,7 @@
 /*   By: roblabla </var/spool/mail/roblabla>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/06/13 15:18:38 by roblabla          #+#    #+#             */
-/*   Updated: 2015/06/14 16:31:59 by roblabla         ###   ########.fr       */
+/*   Updated: 2015/06/19 19:34:41 by roblabla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,7 +63,7 @@ void		FragTrap::rangedAttack(std::string const &target)
 void		FragTrap::meleeAttack(std::string const &target)
 {
 	std::cout	<< "FR4G-TP " << name << " attacks " << target << " at melee, "
-				<< "causing " << ranged_dmg << " points of damage !"
+				<< "causing " << melee_dmg << " points of damage !"
 				<< std::endl;
 }
 

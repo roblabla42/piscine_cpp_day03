@@ -6,7 +6,7 @@
 /*   By: roblabla </var/spool/mail/roblabla>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/06/14 17:11:40 by roblabla          #+#    #+#             */
-/*   Updated: 2015/06/14 18:38:31 by roblabla         ###   ########.fr       */
+/*   Updated: 2015/06/19 19:43:58 by roblabla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,7 +66,7 @@ void		ClapTrap::rangedAttack(std::string const &target)
 void		ClapTrap::meleeAttack(std::string const &target)
 {
 	std::cout	<< "CL4P-TP " << name << " attacks " << target << " at melee, "
-				<< "causing " << ranged_dmg << " points of damage !"
+				<< "causing " << melee_dmg << " points of damage !"
 				<< std::endl;
 }
 
